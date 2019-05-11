@@ -5,7 +5,12 @@ import { HomeScreen } from './HomeScreen';
 
 const AppDrawerNavigator = createDrawerNavigator({
     HomeScreen: {screen: HomeScreen}
-})
+},
+{
+    navigationOptions: {
+    gesturesEnabled: false
+  }
+});
 
 
 export default AppDrawerNavigator

@@ -11,12 +11,7 @@ const AppNavigator = createStackNavigator ({
   LoginScreen: { screen: LoginScreen },
   SignUpScreen: { screen: SignUpScreen },
   DrawerNavigator: {screen: AppDrawerNavigator }
-},  
-  {
-    navigationOptions: {
-    gesturesEnabled: false
-  }
-})
+});
 
  class App extends React.Component {
   render() {
